@@ -104,3 +104,10 @@ If you find a bug or have an idea for a feature, feel free to write an [issue](h
 ## License
 
 This theme is released under the [MIT license](https://github.com/opera7133/tella/blob/master/LICENSE).
+
+
+## Q&A
+
+Which hugo version should I use?
+
+the hugo-extended version contains post-css fuction should be used.
