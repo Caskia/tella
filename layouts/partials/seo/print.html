@@ -62,7 +62,7 @@
 {{ with .Params.seo.canonical }}
   {{- $.Scratch.SetInMap "seo" "canonical" (. | absURL) -}}
 {{ else }}
-{{- $.Scratch.SetInMap "seo" "canonical" .Permalink -}}
+{{- $.Scratch.SetInMap "seo" "canonical" .RelPermalink -}}
 {{ end }}
 
 {{- partial "seo/extend" . -}}
